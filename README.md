@@ -23,6 +23,7 @@ QuizInator is an interactive quiz app that leverages artificial intelligence to 
 
    # Navigate to the project directory
    cd QuizInator
+   ```
 ## Usage
 
 
