@@ -23,4 +23,18 @@ QuizInator is an interactive quiz app that leverages artificial intelligence to 
 
    # Navigate to the project directory
    cd QuizInator
+## Usage
 
+
+## AI Quiz Generation
+
+[Explain how AI generates quizzes].
+## Contributing
+We welcome contributions! See CONTRIBUTING.md for details.
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+[Any credits or references to third-party resources].
+Contact
