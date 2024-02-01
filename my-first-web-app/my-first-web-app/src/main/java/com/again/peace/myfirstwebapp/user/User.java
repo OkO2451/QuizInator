@@ -1,6 +1,6 @@
 package com.again.peace.myfirstwebapp.user;
 
-import com.again.peace.myfirstwebapp.session.Session;
+import com.again.peace.myfirstwebapp.session.Quizz;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -17,10 +17,6 @@ public class User {
     private Date createdAt;
     private Date lastLogin;
 
-
-    @ManyToOne
-    private Session session;
-
     public String getName(){
         return username;
     }
@@ -31,6 +27,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "super.toString()";
+        return super.toString();
     }
 }

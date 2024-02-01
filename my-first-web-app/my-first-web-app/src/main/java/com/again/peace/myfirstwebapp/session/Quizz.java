@@ -9,7 +9,7 @@ import java.util.List;
 
 
 @Entity
-public class Session {
+public class Quizz {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -21,10 +21,12 @@ public class Session {
     private Date startTime;
     private Date endTime;
     private int score;
+    @ManyToOne
+    private Cours cours;
 
     @OneToMany
     private List<User> userList;
 
-    @OneToMany(mappedBy = "session")
+    @OneToMany(mappedBy = "quizz")
     private List<Question> questions;
 }

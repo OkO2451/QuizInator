@@ -1,7 +1,7 @@
 package com.again.peace.myfirstwebapp.question;
 
 import com.again.peace.myfirstwebapp.answer.Answer;
-import com.again.peace.myfirstwebapp.session.Session;
+import com.again.peace.myfirstwebapp.session.Quizz;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -19,5 +19,5 @@ public class Question {
     private int correctOption;
 
     @ManyToOne
-    private Session session;
+    private Quizz quizz;
 }
